@@ -1,0 +1,16 @@
+<joblist>
+  <job>
+    <defaultTab>summary</defaultTab>
+    <description>change test</description>
+    <executionEnabled>true</executionEnabled>
+    <loglevel>INFO</loglevel>
+    <name>job29</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>ls -ltr</exec>
+      </command>
+    </sequence>
+  </job>
+</joblist>
