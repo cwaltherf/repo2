@@ -1,0 +1,32 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <dispatch>
+      <excludePrecedence>true</excludePrecedence>
+      <keepgoing>false</keepgoing>
+      <rankOrder>ascending</rankOrder>
+      <successOnEmptyNodeFilter>false</successOnEmptyNodeFilter>
+      <threadcount>1</threadcount>
+    </dispatch>
+    <executionEnabled>true</executionEnabled>
+    <id>97ec4406-0ae7-40a1-957a-fd1e034ff7f6</id>
+    <loglevel>INFO</loglevel>
+    <name>job2_p2</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <nodefilters>
+      <filter>name: localhost</filter>
+    </nodefilters>
+    <nodesSelectedByDefault>true</nodesSelectedByDefault>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <description>step 1</description>
+        <exec>echo "job 2 p2"</exec>
+      </command>
+    </sequence>
+    <uuid>97ec4406-0ae7-40a1-957a-fd1e034ff7f6</uuid>
+  </job>
+</joblist>
